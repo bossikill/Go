@@ -1,0 +1,8 @@
+
+
+###goroutine像线程
+
+###channel,内置数据结构,用来在goroutine之间进行安全的数据通信
+
+### :=  声明一个变量并赋值
+feeds, err := RetrieveFeeds()
