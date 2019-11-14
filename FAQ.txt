@@ -1,6 +1,9 @@
 ###安装Go环境
 #   下载  https://golang.org/dl/ 安装包
-wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
-tar zxvf
-cp -r go /usr/local/
-export PATH=$PATH:/usr/local/go/bin
+#   wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
+#   tar zxvf
+#   cp -r go /usr/local/
+#   vim ~/.bash_profile
+    PATH=$PATH:$HOME/bin:/usr/local/go/bin
+#   source ~/.bash_profile
+
