@@ -1,10 +1,19 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"os"
+	"path"
 )
 
+func init() {
+
+}
+
 func main() {
-	fmt.Println(len(os.Args[1:]))
+	input := bufio.NewScanner(os.Stdin)
+	for input.Scan() {
+		fmt.Println(path.Ext(input.Text()))
+	}
 }
